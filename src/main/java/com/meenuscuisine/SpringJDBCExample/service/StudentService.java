@@ -21,8 +21,8 @@ public class StudentService {
         this.studentRepo = studentRepo;
     }
 
-    public void addStudent(Student s){
-        StudentRepo.save();
+    public  void addStudent(Student s){
+        StudentRepo.save(s);
     System.out.println("added");
     }
 
