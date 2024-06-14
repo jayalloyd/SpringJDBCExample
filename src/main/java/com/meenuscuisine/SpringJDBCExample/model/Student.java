@@ -30,7 +30,7 @@ public class Student {
     }
 
     public int getRollNo() {
-        return rollNo;
+        return this.rollNo;
     }
 
     public void setRollNo(int rollNo) {
